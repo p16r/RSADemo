@@ -15,6 +15,7 @@
 		050C228922AD49EA006AE78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050C228722AD49EA006AE78A /* LaunchScreen.storyboard */; };
 		050C229422AD49EA006AE78A /* RSADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C229322AD49EA006AE78A /* RSADemoTests.swift */; };
 		050C229F22AD49EA006AE78A /* RSADemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C229E22AD49EA006AE78A /* RSADemoUITests.swift */; };
+		050C22AD22AD4A52006AE78A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 050C22AC22AD4A52006AE78A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		050C229A22AD49EA006AE78A /* RSADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		050C229E22AD49EA006AE78A /* RSADemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSADemoUITests.swift; sourceTree = "<group>"; };
 		050C22A022AD49EA006AE78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050C22AC22AD4A52006AE78A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		050C227022AD49E9006AE78A = {
 			isa = PBXGroup;
 			children = (
+				050C22AC22AD4A52006AE78A /* .gitignore */,
 				050C227B22AD49E9006AE78A /* RSADemo */,
 				050C229222AD49EA006AE78A /* RSADemoTests */,
 				050C229D22AD49EA006AE78A /* RSADemoUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050C22AD22AD4A52006AE78A /* .gitignore in Resources */,
 				050C228922AD49EA006AE78A /* LaunchScreen.storyboard in Resources */,
 				050C228622AD49EA006AE78A /* Assets.xcassets in Resources */,
 				050C228422AD49E9006AE78A /* Main.storyboard in Resources */,
