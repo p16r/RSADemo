@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		050C227D22AD49E9006AE78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C227C22AD49E9006AE78A /* AppDelegate.swift */; };
 		050C227F22AD49E9006AE78A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C227E22AD49E9006AE78A /* SceneDelegate.swift */; };
-		050C228122AD49E9006AE78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C228022AD49E9006AE78A /* ViewController.swift */; };
 		050C228422AD49E9006AE78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050C228222AD49E9006AE78A /* Main.storyboard */; };
 		050C228622AD49EA006AE78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050C228522AD49EA006AE78A /* Assets.xcassets */; };
 		050C228922AD49EA006AE78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050C228722AD49EA006AE78A /* LaunchScreen.storyboard */; };
 		050C229422AD49EA006AE78A /* RSADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C229322AD49EA006AE78A /* RSADemoTests.swift */; };
 		050C229F22AD49EA006AE78A /* RSADemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C229E22AD49EA006AE78A /* RSADemoUITests.swift */; };
 		050C22AD22AD4A52006AE78A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 050C22AC22AD4A52006AE78A /* .gitignore */; };
+		050C22B122AD718B006AE78A /* KeysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C22B022AD718B006AE78A /* KeysTableViewController.swift */; };
+		050C22B322AD887A006AE78A /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C22B222AD887A006AE78A /* KeyPair.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		050C227922AD49E9006AE78A /* RSADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050C227C22AD49E9006AE78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		050C227E22AD49E9006AE78A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		050C228022AD49E9006AE78A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		050C228322AD49E9006AE78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		050C228522AD49EA006AE78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050C228822AD49EA006AE78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		050C229E22AD49EA006AE78A /* RSADemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSADemoUITests.swift; sourceTree = "<group>"; };
 		050C22A022AD49EA006AE78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		050C22AC22AD4A52006AE78A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		050C22B022AD718B006AE78A /* KeysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysTableViewController.swift; sourceTree = "<group>"; };
+		050C22B222AD887A006AE78A /* KeyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,9 @@
 			children = (
 				050C227C22AD49E9006AE78A /* AppDelegate.swift */,
 				050C227E22AD49E9006AE78A /* SceneDelegate.swift */,
-				050C228022AD49E9006AE78A /* ViewController.swift */,
 				050C228222AD49E9006AE78A /* Main.storyboard */,
+				050C22B022AD718B006AE78A /* KeysTableViewController.swift */,
+				050C22B222AD887A006AE78A /* KeyPair.swift */,
 				050C228522AD49EA006AE78A /* Assets.xcassets */,
 				050C228722AD49EA006AE78A /* LaunchScreen.storyboard */,
 				050C228A22AD49EA006AE78A /* Info.plist */,
@@ -263,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050C228122AD49E9006AE78A /* ViewController.swift in Sources */,
 				050C227D22AD49E9006AE78A /* AppDelegate.swift in Sources */,
+				050C22B322AD887A006AE78A /* KeyPair.swift in Sources */,
 				050C227F22AD49E9006AE78A /* SceneDelegate.swift in Sources */,
+				050C22B122AD718B006AE78A /* KeysTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
